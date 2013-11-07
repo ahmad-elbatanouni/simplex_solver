@@ -1,0 +1,249 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+*:focus {
+	outline: none;
+}
+
+::selection{ 
+	background-color: #1480c5; 
+	color: white; 
+}
+::moz-selection{ 
+	background-color: #E13300; 
+	color: white; 
+}
+::webkit-selection{
+	background-color: #E13300; 
+	color: white; 
+}
+
+.download {
+	width: 150px;
+	height: 90px;
+	margin: 100px 0 0 -180px;
+	outline: none;
+	position: fixed;
+	z-index: 99;
+	opacity: .2;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 30px;
+}
+.download:hover {
+	opacity: 1;
+}
+
+body {
+	margin: auto;
+	width: 970;
+	background: #272727;
+}
+
+a {
+	text-decoration: none;
+	border-bottom:1px dashed;
+	color: orange;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+a:hover {
+	color: yellow;
+}
+
+.header {
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	padding: 20px 0 0 0 ;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	display: inline;
+}
+#title {
+	width: 300px;	
+	-webkit-transition: all 0.99s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	
+	background: -webkit-linear-gradient(#d5d5d5, #616161);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#title:hover {
+	padding-left: 50px;
+	
+	cursor: pointer;
+}
+
+.body {
+	margin: 10px 0 0 10px;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	width: 100%;
+	background-color: #2D2D2D;
+	color: #fff;
+	font-family:Arial;
+	font-size: 12px;
+}
+
+#form {
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #363636;	
+}
+
+select {
+	color:#CCCCCC;
+	background-color: #272727;
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	padding: 5px;
+	margin: 5px 0 5px 0;
+	border-color: #363636;
+}
+
+input {
+	width: 80px;
+	border: 1px solid #363636;
+	color:#CCCCCC;
+	background-color: #272727;
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	padding: 5px;
+	margin: 5px 0 5px 0;
+}
+
+input:focus:invalid{
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535;
+}
+
+input:required:valid{
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+label {
+	display:block;
+	font-weight:bold;
+}
+#block {
+	margin: 100px 10px 0 0;
+	display: inline;
+}
+#selection {
+	margin: 0 10px 0 0;
+	display: inline;
+}
+#RHS {
+	margin: 0 10px 0 0;
+	display: inline;
+}
+#error {
+	font-family: Verdana, sans-serif;
+	font-size: 14;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	padding: 5px;
+	margin: 5px 0 5px 0;
+	text-align: center;
+}
+
+.img {
+	display: block;
+}
+
+table {
+	margin-right: 10px;
+	margin-bottom: 50px;
+	background: #272727;
+	border: 1px solid #363636;
+	border-radius: 15px;
+	color: #fff;
+	width: 100%;
+	border-spacing: 0;
+	box-shadow: 0 0 5px #363636;
+	padding: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+table:hover {
+	border-radius: 35px;
+}
+th {
+	background: #2d2d2d;
+	margin-bottom: 5px;
+	text-align: left;
+	border-bottom:1px solid #363636;
+	border-top:1px solid #363636;
+}
+tr {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+tr:hover {
+	background: #444444;
+	color: #f1b2b2;
+	color: #d3d3d3;
+}
+
+.table_num {
+	width: 160px;
+	border-bottom: 1px dashed #d3d3d3;
+	padding-bottom: 5px;
+	color: #fff;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	margin: 0px 0 10px 0;
+}
+.num {
+	display: inline;
+	color: #0390c5;
+}
+
+.obj_nums {
+	display: inline;
+	color: #b9b9b9;
+}
+.optimum {
+	width: 250px;
+	border: 1px dashed #d3d3d3;
+	padding: 5px;
+	color: #fff;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.objective {
+	width: 70%;
+	margin-left: 130px;
+	margin-bottom: 20px;
+	text-align: center;
+	border: 1px dashed #d3d3d3;
+	padding: 5px;
+	color: #b9b9b9;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
